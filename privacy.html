@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy · Paywatch</title>
+<meta name="description" content="How Paywatch handles your data: what is read on your phone, what we store, who processes it, and how to delete it.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header><div class="wrap"><a class="brand" href="./"><span>🔔</span>Paywatch</a><nav><a href="privacy.html">Privacy</a><a href="delete-account.html">Delete account</a></nav></div></header>
+<main><div class="wrap">
+<h1>Privacy policy</h1>
+<p class="updated">Last updated: 21 November 2026</p>
+<p>This policy explains what the Paywatch Android app (“Paywatch”, “we”, “us”) collects, why, and the choices you have. Paywatch is operated by Nagaraj Bhat (Astravanta), an individual based in India. Questions: <a href="mailto:hello@astravanta.com">hello@astravanta.com</a>.</p>
+
+<div class="callout"><b>The short version.</b> Paywatch reads bank and payment SMS <b>on your phone</b> to find autopays and upcoming debits. The text of your messages is never saved and never leaves your phone. We keep a small account record (your phone number and name) and usage events that never include amounts, merchants or messages. Ads are shown by Google AdMob.</div>
+
+<h2>1. SMS access</h2>
+<p>With your permission, Paywatch reads SMS messages on your device (READ_SMS) and new incoming SMS (RECEIVE_SMS). This is the app's core feature: it detects autopay mandates, pre-debit notices, autopay charges and recurring payments so it can remind you before money is debited.</p>
+<ul>
+<li>Only messages from bank and payment senders are processed. Personal messages, chats and one-time passwords (OTPs) are skipped.</li>
+<li>Processing happens entirely on your device. The message text is never stored, never uploaded, and never shared with us or anyone else.</li>
+<li>From each relevant message, the app keeps only what it needs, on your device: the amount, the merchant name, the date, the type of transaction, and the last digits of the account or card shown in the message.</li>
+<li>SMS data is never used for advertising, and is never sold or transferred.</li>
+</ul>
+<p>You can revoke SMS access at any time in Android Settings → Apps → Paywatch → Permissions.</p>
+
+<h2>2. Information we collect</h2>
+<div class="tablewrap"><table>
+<thead><tr><th>Information</th><th>Why</th><th>Where it is kept</th></tr></thead>
+<tbody>
+<tr><td>Autopays, upcoming debits and transaction summaries derived from SMS</td><td>To show your autopays and remind you</td><td>Only on your phone</td></tr>
+<tr><td>Phone number and a sign-in token</td><td>To create and secure your account</td><td>Our authentication provider (Supabase)</td></tr>
+<tr><td>Your name</td><td>To personalise the app. Shared with our other apps that use the same sign-in</td><td>Supabase</td></tr>
+<tr><td>Usage events (screens opened, scan finished, settings changed), app version, a random install ID, and your account ID when signed in</td><td>To understand how the app is used and fix problems. Never includes amounts, merchants or message text</td><td>Our server</td></tr>
+<tr><td>Advertising ID and device information</td><td>Collected by Google AdMob to show and measure ads</td><td>Google</td></tr>
+</tbody></table></div>
+<p>You can turn off usage events in Settings → Share anonymous usage.</p>
+
+<h2>3. Service providers</h2>
+<ul>
+<li><b>Supabase</b> stores your account (phone number and name).</li>
+<li><b>Message Central</b> sends the one-time sign-in code to your phone number.</li>
+<li><b>Vultr</b> hosts our server, which receives usage events.</li>
+<li><b>Google AdMob</b> shows ads. Where required (for example in the EEA and UK), we ask for your consent through Google's consent form, and you can change your choice in Settings → Ad privacy choices. See <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from apps that use its services</a>.</li>
+</ul>
+<p>We do not sell your personal information.</p>
+
+<h2>4. Notifications and voice alerts</h2>
+<p>Reminders are created on your device. Voice alerts use your phone's built-in text-to-speech engine.</p>
+
+<h2>5. Security</h2>
+<p>Data sent to our servers travels over HTTPS. App data on your phone is kept in the app's private storage and is excluded from device backups.</p>
+
+<h2>6. Keeping and deleting your data</h2>
+<p>We keep your account until you delete it. You can delete it in the app (Settings → Delete account) or as described on our <a href="delete-account.html">account deletion page</a>. Deleting your account removes your phone number and name, and unlinks your usage events from you. Deleting the app removes all data stored on your phone.</p>
+<p>Paywatch uses the same sign-in as our other apps. Deleting your account deletes it for all of them.</p>
+
+<h2>7. Children</h2>
+<p>Paywatch is not directed at children under 18.</p>
+
+<h2>8. Changes</h2>
+<p>If we change this policy, we will update the date above and, for significant changes, tell you in the app.</p>
+
+<h2>9. Contact</h2>
+<p>Nagaraj Bhat (Astravanta), India · <a href="mailto:hello@astravanta.com">hello@astravanta.com</a></p>
+</div></main>
+<footer><div class="wrap">Paywatch is made by Nagaraj Bhat (Astravanta), India · <a href="mailto:hello@astravanta.com">hello@astravanta.com</a></div></footer>
+</body>
+</html>
